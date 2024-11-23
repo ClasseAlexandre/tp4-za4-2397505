@@ -1,0 +1,134 @@
+body {
+    background-color: #C0C0C0;
+    font-family: Cochin;
+    color: #2F4F4F;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, img {
+    text-align: center;
+	
+}
+
+div {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+
+#titre-boutique {
+    text-align: center;
+    margin-bottom: 20px;
+	
+}
+
+#titre-boutique img {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 10px;
+    margin: 0;
+}
+
+#titre-boutique a {
+    display: inline-block;
+    vertical-align: middle;
+    color: #003B5C;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #000000;
+    margin: 0;
+}
+
+#titre-boutique a:hover {
+    color: #1e90ff;
+}
+
+img {
+    border-radius: 10px;
+    display: block; /* Permet de gérer le centrage via les marges */
+    margin: 0 auto;
+}
+
+h2 {		/* Plus simple que .titre-2 mais si la demande n'etait pas sur tous les h2 j'aurais fais .titre-2 */
+	color: #003B5C;
+	text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #000000;
+    margin-bottom: 10px; /* Marge extérieure basse */
+}
+
+p {
+    text-align: justify;
+    font-size: 16px;
+}
+
+#liste-caracteristiques {
+    list-style-type: none; /* Suppression des puces */
+	padding: 0px;
+    text-align: left;
+}
+
+#liste-caracteristiques li {
+    background-color: #f8f9fa;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#liens-cgu li,a {
+    text-align: left;
+	color: #0047A0;
+    text-decoration: none;
+}
+
+#liens-cgu a:hover {
+    background-color: #ffeb3b;
+}
+
+
+
+
+table {
+    width: 320px !important; /* Puisque la largeur du tableau est aussi petite, le texte des boutons n'est pas completement visible */
+	height: auto !important;
+    margin: 0 auto !important;
+    border: none !important;
+}
+
+table img {
+    width: 100% !important;
+    height: 150px !important;
+    max-width: 150px !important;
+}
+
+td, th {
+    border: none !important;
+}
+
+caption {
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.colonne-4 {
+    padding: 10px;
+}
+
+button {
+    background-color: #4C9141;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+	border-radius: 10px;
+    height: 50px;
+    border: none;
+}
+
+button:hover {
+    background-color: #8B0000;
+}
